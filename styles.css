@@ -1,0 +1,141 @@
+@media screen {
+  .heading {
+    text-align: left;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 24px;
+    gap: 12px;
+    height: 590px;
+    left: 0;
+    top: 92px;
+    background-color: #1c1a19;
+  }
+}
+
+.heading-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  width: 327px;
+  height: 124px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.heading-2 {
+  width: 327px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-start;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.content {
+  display: flex;
+}
+
+.content-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 327px;
+  height: 123px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.vector-in {
+  position: absolute;
+  left: 55.57%;
+  right: 37.52%;
+  top: 60.59%;
+  bottom: 9.36%;
+  background: #fff;
+
+  /* Theme 3 / Primary 1 */
+
+  border: 1.22338px solid #ff6b00;
+  transform: matrix(-0.15, -0.96, 0.96, -0.15, 0, 0);
+}
+
+.i-github {
+  left: 0.08%;
+  right: 0.01%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Theme 3 / Neutral 8 */
+  color: #dbd8d7;
+}
+
+.i-linkedin {
+  left: 0%;
+  right: 75.13%;
+  top: 0%;
+  bottom: 75.17%;
+
+  /* Theme 3 / Neutral 8 */
+  color: #dbd8d7;
+}
+
+.i-twitter {
+  left: 14.58%;
+  right: 14.58%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Theme 3 / Neutral 8 */
+  color: #dbd8d7;
+}
+
+.i-instagram {
+  left: 0.04%;
+  right: 0.03%;
+  top: 0.02%;
+  bottom: 0%;
+
+  /* Theme 3 / Neutral 8 */
+  color: #dbd8d7;
+}
+
+.i-facebook {
+  left: 8.33%;
+  right: 8.33%;
+  top: 16.67%;
+  bottom: 16.67%;
+
+  /* Theme 3 / Neutral 8 */
+  color: #dbd8d7;
+}
+
+.button {
+  :hover {
+    background-color: white;
+  }
+
+  cursor: pointer;
+  background-color: purple;
+  padding: 1em;
+  margin: 2em 0;
+  width: 50%;
+}
+
+/* section-2 */
