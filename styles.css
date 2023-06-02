@@ -1,6 +1,6 @@
 
 .navigation {
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   position: absolute;
   width: 1440px;
@@ -107,7 +107,7 @@
 .vector-in {
   background-image: url(Group.png);
   position: absolute;
-  width: 634.13px;
+  width: 375.13px;
   height: 769.27px;
   top: 1%;
   left: 805px;
