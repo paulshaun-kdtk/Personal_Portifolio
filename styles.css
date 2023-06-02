@@ -1,5 +1,7 @@
 
 .navigation {
+  display: flexbox;
+  flex-direction: row;
   position: absolute;
   width: 1440px;
   height: 72px;
@@ -8,19 +10,30 @@
   background: #3e3c3c;
 }
 
+.hamIcon {
+  color: #acb7c3;
+  position: absolute;
+  left: 90.67%;
+  right: 16.67%;
+  top: 3%;
+  cursor: pointer;
+
+  :hover {
+    color: #fff;
+  }
+}
+
 .myLogo {
-  display: flex;
+  position: absolute;
   height: 20px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  top: 10%;
 }
 
 .headline {
@@ -92,6 +105,7 @@
 }
 
 .vector-in {
+  background-image: url(Group.png);
   position: absolute;
   width: 634.13px;
   height: 769.27px;
