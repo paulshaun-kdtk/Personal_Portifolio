@@ -1,14 +1,14 @@
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
-
 
 .navigation {
   position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   /* padding-inline: 12px;  */
   width: 100%;
   height: 92px;
@@ -28,7 +28,6 @@
   color: white;
 }
 
-
 .heading {
   display: flex;
   flex-direction: column;
@@ -43,9 +42,9 @@
   background: #1c1a19;
   background-image: url('./Group.svg');
   background-repeat: no-repeat;
-  background-size:50%;
-  background-position-x:90%;
-  background-position-y:90%;
+  background-size: 50%;
+  background-position-x: 90%;
+  background-position-y: 90%;
 }
 
 .heading-1 {
