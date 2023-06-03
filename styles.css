@@ -29,18 +29,17 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 0 120px 0;
+  padding: 120px 0 340px 0;
   gap: 12px;
   position: absolute;
   width: 100%;
-  height: 590px;
   top: 90px;
   background: #1c1a19;
   background-image: url('./Group.svg');
   background-repeat: no-repeat;
   background-size: 50%;
   background-position-x: 100%;
-  background-position-y: 65%;
+  background-position-y: 85%;
 }
 
 .heading-1 {
@@ -149,7 +148,5 @@
   top: 7.59%;
   bottom: 0;
   width: 500px;
-
-  /* Theme 3 / Primary 1 */
   background-repeat: no-repeat;
 }
