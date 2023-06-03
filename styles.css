@@ -4,13 +4,10 @@
 }
 
 .navigation {
-  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  /* padding-inline: 12px;  */
-  width: 100%;
+  padding-inline: 12px;
   height: 92px;
   left: 0;
   top: 0;
@@ -39,11 +36,11 @@
   height: 590px;
   top: 90px;
   background: #1c1a19;
-  background-image: url('./Group.png');
+  background-image: url('./Group.svg');
   background-repeat: no-repeat;
   background-size: 50%;
   background-position-x: 100%;
-  background-position-y: 95%;
+  background-position-y: 65%;
 }
 
 .heading-1 {
@@ -57,6 +54,7 @@
   letter-spacing: 0.37px;
   color: #ff6b00;
   flex: none;
+  padding: 0 0 0 24px;
 }
 
 .heading-2 {
@@ -72,6 +70,7 @@
   color: #fff5e1;
   flex: none;
   order: 1;
+  padding: 0 0 0 24px;
 }
 
 .content {
@@ -85,13 +84,13 @@
   color: #fff;
   flex: none;
   order: 2;
+  padding: 0 0 0 24px;
 }
 
 .icons-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 0;
   width: 200px;
   height: 40px;
   flex: none;
@@ -99,6 +98,7 @@
   flex-grow: 0;
   list-style: none;
   color: #fff;
+  padding: 0 0 0 24px;
 }
 
 .i-github {
