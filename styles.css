@@ -1,14 +1,14 @@
 
-.navigation{
+.navigation {
   position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 820px; 
+  width: 820px;
   height: 92px;
-  left: 0px;
-  top: 0px;
-  background: #3C3A39;
+  left: 0;
+  top: 0;
+  background: #3c3a39;
 }
 
 .myLogo {
@@ -19,113 +19,117 @@
 .hamIcon {
   order: 2;
   color: white;
-
 }
 
-.heading{
+.heading {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 120px 24px;
-gap: 12px;
-position: absolute;
-width: 775px;
-height: 590px;
-left: 0px;
-top: 90px;
-background: #1C1A19;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 775px;
+  height: 590px;
+  left: 0;
+  top: 90px;
+  background: #1c1a19;
 }
 
-.heading-1{
+.heading-1 {
   width: 327px;
-height: 124px;
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 64px;
-letter-spacing: 0.37px;
-color: #FF6B00;
-flex: none;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
 }
 
-.heading-2{
-width: 327px;
-height: 27px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
-display: flex;
-align-items: center;
-color: #FFF5E1;
-flex: none;
-order: 1;
+.heading-2 {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
 }
 
-.content{
-width: 327px;
-height: 123px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
-flex: none;
-order: 2;
+.content {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
 }
 
 .icons-container {
   display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-width: 200px;
-height: 40px;
-flex: none;
-order: 3;
-flex-grow: 0;
-color: #FFFFFF;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  color: #fff;
 }
 
-.i-github{
+.i-github {
   cursor: pointer;
-  :hover{
-   color: #FF6B00;
+
+  :hover {
+    color: #ff6b00;
   }
 }
 
-.i-linkedin{
+.i-linkedin {
   cursor: pointer;
-  :hover{
-   color: #FF6B00;
+
+  :hover {
+    color: #ff6b00;
   }
 }
 
-.i-twitter{
+.i-twitter {
   cursor: pointer;
-  :hover{
-   color: #FF6B00;
+
+  :hover {
+    color: #ff6b00;
   }
 }
 
-.i-instagram{
+.i-instagram {
   cursor: pointer;
-  :hover{
-   color: #FF6B00;
+
+  :hover {
+    color: #ff6b00;
   }
 }
 
-.i-facebook{
+.i-facebook {
   cursor: pointer;
-  :hover{
-   color: #FF6B00;
+
+  :hover {
+    color: #ff6b00;
   }
 }
 
-.vector-in{
+.vector-in {
   background-image: url(./Group.svg);
   position: absolute;
   left: 39.57%;
@@ -133,7 +137,7 @@ color: #FFFFFF;
   top: 7.59%;
   bottom: 0;
   width: 500px;
+
   /* Theme 3 / Primary 1 */
   background-repeat: no-repeat;
-
 }
