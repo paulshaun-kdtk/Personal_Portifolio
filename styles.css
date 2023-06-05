@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 12px;
+  height: 92px;
+  left: 0;
+  top: 0;
+  background: #3c3a39;
+}
+
+.myLogo {
+  order: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.hamIcon {
+  order: 2;
+  color: white;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 0 340px 0;
+  gap: 12px;
+  position: absolute;
+  width: 100%;
+  top: 90px;
+  background: #1c1a19;
+  background-image: url('./Group.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 100%;
+  background-position-y: 85%;
+}
+
+.heading-1 {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  flex: none;
+  padding: 0 0 0 24px;
+}
+
+.heading-2 {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+  flex: none;
+  order: 1;
+  padding: 0 0 0 24px;
+}
+
+.content {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  padding: 0 0 0 24px;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  list-style: none;
+  color: #fff;
+  padding: 0 0 0 24px;
+}
+
+.i-github {
+  cursor: pointer;
+
+  :hover {
+    color: #ff6b00;
+  }
+}
+
+.i-linkedin {
+  cursor: pointer;
+
+  :hover {
+    color: #ff6b00;
+  }
+}
+
+.i-twitter {
+  cursor: pointer;
+
+  :hover {
+    color: #ff6b00;
+  }
+}
+
+.i-instagram {
+  cursor: pointer;
+
+  :hover {
+    color: #ff6b00;
+  }
+}
+
+.i-facebook {
+  cursor: pointer;
+
+  :hover {
+    color: #ff6b00;
+  }
+}
+
+.vector-in {
+  background-image: url(./Group.svg);
+  position: absolute;
+  left: 39.57%;
+  right: 30.52%;
+  top: 7.59%;
+  bottom: 0;
+  width: 500px;
+  background-repeat: no-repeat;
+}
