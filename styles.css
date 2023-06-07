@@ -395,11 +395,8 @@ color: #FFFFFF;
 /* get in touch section */
 
 .footer{
-  background-color: #e5e5e5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 8px;
+  background-color: #ffffff;
+  padding: 20px;
 }
 
 .f-text{
@@ -412,3 +409,33 @@ color: #FFFFFF;
   color: #172b4d;
 }
 
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-form > * {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.footer-form > input {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.footer-form > textarea {
+  background-color: #fbf8f7;
+  border: none;
+}
+
+.form-button {
+  width: 131px;
+  padding: 12px;
+  font-size: 17px;
+  background-color: #FF6B00;
+  border: none;
+  margin-top: 20px;
+}
