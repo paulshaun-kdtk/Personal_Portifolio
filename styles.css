@@ -439,3 +439,20 @@ color: #FFFFFF;
   border: none;
   margin-top: 20px;
 }
+
+.media {
+  color: #505f79;
+  margin: 25px auto;
+}
+
+hr {
+  margin-top: 78px;
+}
+
+.indicator {
+  width: 134px;
+  background: #0d151e;
+  border: 4px solid #0d151e;
+  border-radius: 10px;
+  margin: auto;
+}
