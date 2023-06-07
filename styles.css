@@ -390,6 +390,8 @@ h2 {
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  width: 327px;
+  margin-bottom: 30px;
 }
 
 .footer-form {
@@ -412,6 +414,7 @@ h2 {
 .footer-form > textarea {
   background-color: #fbf8f7;
   border: none;
+  padding: 10px;
 }
 
 .form-button {
