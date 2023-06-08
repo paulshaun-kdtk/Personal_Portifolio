@@ -391,7 +391,7 @@ h2 {
   text-align: center;
   color: #172b4d;
   width: 327px;
-  margin:30px 0px 30px 0px;
+  margin: 30px 0 30px 0;
 }
 
 .footer-form {
@@ -426,11 +426,13 @@ h2 {
   margin-top: 20px;
   color: #fff;
   cursor: pointer;
-  :hover{
+
+  :hover {
     background-color: #090809;
   }
-  :active{
-    color:#ff6b00;
+
+  :active {
+    color: #ff6b00;
   }
 }
 
@@ -441,7 +443,7 @@ h2 {
 
 hr {
   margin-top: 78px;
-  color: #DFE1E6;
+  color: #dfe1e6;
   width: 100%;
 }
 
