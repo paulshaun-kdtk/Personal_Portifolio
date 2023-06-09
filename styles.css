@@ -151,306 +151,69 @@
   background-repeat: no-repeat;
 }
 
-.recent-works-container {
-  margin-top: 900px;
-  position: absolute;
-  margin-left: 15px;
+/* recent works */
+
+.recent-works-container{
+  margin: 60% 8% 20% 8%;
 }
 
-.rw-heading {
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  border-bottom: 1px solid #212121;
+.multi-p-s {
+ margin: 10% 0 10% 0;
+ display: flex;
+ justify-content: space-evenly;
+ 
 }
 
-.rw-image1 {
-  margin: 50px 0 20px 10px;
-}
-
-.rw-multi-st-text {
-  width: 327px;
-  height: 147px;
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #091e42;
-}
-
-.rw-button {
-  background-color: #fff;
-  padding: 8px;
-  border: 1px solid #8993a4;
-}
-
-.rw-button1 {
-  margin-top: 10px;
-  background-color: #ff6b00;
-  padding-inline: 10px;
-  padding: 8px;
-  color: #fff;
-  border: 1px solid #8993a4;
-}
-
-.rw-p-art-data {
-  margin-top: 30px;
-  padding-inline-start: 30px;
-  padding-inline-end: 25px;
-  padding-top: 50px;
-  background-image: url('./ImgPlaceholder.svg');
-  width: 280px;
-  height: 280px;
-}
-
-.rw-p-art-data > h3 {
-  width: 295px;
-  height: 81px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.rw-p-art-data p {
-  width: 301px;
-  height: 99px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.rw-button-pr {
-  padding: 10px;
-  background: rgba(255, 255, 255, 0.24);
-  margin-right: 10px;
-  border: none;
-  outline: none;
-}
-
-.rw-button-pr1 {
-  padding: 10px;
-  background: #ff6b00;
-  color: white;
-  width: 97%;
-  border: none;
-  outline: none;
-  margin-bottom: 15px;
-}
-
-.b-page {
-  position: absolute;
-  width: 375px;
-  height: 1801px;
-  left: 0;
-  top: 4137px;
-  background: #1c1a19;
-  background-repeat: no-repeat;
-  background-position-x: 100%;
-  background-position-y: 17%;
-  background-image: url('./Group3.svg');
-}
-
-.b-p-form {
-  margin-top: 100px;
-  background: transparent;
-  margin-left: 15px;
-  border-bottom: 1px solid gray;
-  background-size: 50%;
-}
-
-h2 {
-  display: inline-block;
-  margin: 0;
-  vertical-align: middle;
-  font-family: 'InaiMathi', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 30px;
-  color: #fff;
-}
-
-.b-p-form > h2 {
-  width: 327px;
-  height: 79px;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-}
-
-.b-p-form > p {
-  width: 327px;
-  height: 148px;
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #f4f5f7;
-}
-
-.b-p-form > input {
-  padding: 10px;
-  color: #fff;
-  background-color: #ff6b00;
-  margin-bottom: 156px;
-  border: none;
-  outline: none;
-}
-
-.b-page-skills {
+.rw-f-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 80px 24px 38px;
-  gap: 24px;
-  width: 329px;
-  left: calc(50% - 329px / 2);
-}
-
-.icon2 {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  background-color: #ff6b00;
-  transform: rotate(-45deg);
-  text-align: center;
-  margin-right: 10px;
-  vertical-align: middle;
-  line-height: 30px;
-}
-
-.icon3 {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  background-color: #ff6b00;
-  text-align: center;
-  margin-right: 10px;
-  vertical-align: middle;
-  line-height: 30px;
-}
-
-.icon4 {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-  background-color: #ff6b00;
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 10px;
-  vertical-align: middle;
-  line-height: 30px;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: -8px 12px 0 15px;
-  gap: 8px;
-  height: 216px;
-  order: 1;
-}
-
-.text-container > p {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 18px;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 32px;
-}
-
-.footer {
-  background-color: #fff;
+  justify-content: space-between;
   padding: 20px;
 }
 
-.f-text {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
-  width: 327px;
-  margin: 30px 0 30px 0;
-}
-
-.footer-form {
+.m-p-buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.footer-form > * {
-  width: 90%;
-  margin-top: 10px;
+.m-p-buttons > #mp-button {
+border: 1px solid black;
+background-color: #FFFFFF;
+padding: 8px;
+margin-left:10px;
 }
 
-.footer-form > input {
+.rw-f-container > #mp-button1 {
+  width: 20%;
   padding: 10px;
-  border: none;
-  border-bottom: 1px solid #dbd8d7;
+  background-color: orange;
+ cursor: pointer;
+ border: 1px solid #1c1a19;
 }
 
-.footer-form > textarea {
-  background-color: #fbf8f7;
-  border: none;
+.m-p-image-list{
+display: flex;
+justify-content: space-between;
+min-height: 20%;
+flex-wrap: wrap;
+}
+
+
+.m-p-image-list > li {
+ padding: 10px;
+ width: 20%;
+ background-image: url('./ImgPlaceholder.svg');
+ background-repeat: no-repeat;
+ height:400px;
+}
+
+.rw-button-pr{
+  color: red;
   padding: 10px;
+  
 }
 
-.form-button {
-  width: 131px;
-  padding: 12px;
-  font-size: 17px;
-  background-color: #ff6b00;
-  border: none;
-  margin-top: 20px;
-  color: #fff;
-  cursor: pointer;
-
-  :hover {
-    background-color: #090809;
-  }
-
-  :active {
-    color: #ff6b00;
-  }
-}
-
-.media {
-  color: #505f79;
-  margin: 25px auto;
-}
-
-hr {
-  margin-top: 78px;
-  color: #dfe1e6;
-  width: 100%;
-}
-
-.indicator {
-  width: 134px;
-  background: #0d151e;
-  border: 4px solid #0d151e;
-  border-radius: 10px;
-  margin: auto;
+.m-p-image-list > input {
+ height: 23px;
+ width: 324px;
+ border: 1px solid black;
 }
