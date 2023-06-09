@@ -393,10 +393,11 @@ color: #FFFFFF;
 }  
 
 .btn {
-  transition: border 1.5s, background-color 1.5s;
+  transition: border 1.5s, background-color 1.5s, color 1.5s;
 }
 
 .btn:hover {
   border: 1px solid #ff6b00;
   background-color: #fff5e1;
+  color: #ff6b00;
 }
