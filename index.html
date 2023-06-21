@@ -56,15 +56,32 @@
   <body>
     <header class="header">
       <a href="">Paul Shaun</a>
-      <nav>
+      <nav>    
         <img src="./assets/icons/menu.png" class="menu-img" alt="menu" />
         <ul class="nav-list">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href=""><img src="./assets/icons/mail.svg" alt="mail-box"></a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+          <li><a><img src="./assets/icons/mail.svg" alt="mail-box"></a></li>
         </ul>
       </nav>
+
+
+      <div class="Popwrapper">
+        <div id="MobilePopupMenu" class="PopupMenu">
+          <div class="Xmenu">
+            <img src="assets/images/X.png" alt="Close Menu Icom" />
+          </div>
+          <ul class="nav-items">
+            <li><a href="#Projects" class="menu_items">Portfolio</a></li>
+            <li><a href="#About"  class="menu_items">About</a></li>
+            <li><a href="#Contact" class="menu_items">Contact</a></li>
+          </ul> 
+        </div>
+      </div>
+
+
+
     </header>
 
     <main>
@@ -368,5 +385,9 @@
         </li>
       </ul>
     </footer>
+
+    <script src="./index.js">
+
+    </script>
   </body>
 </html>

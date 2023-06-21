@@ -93,6 +93,7 @@ ul {
 
 .menu-img {
   width: 1.1rem;
+  cursor:pointer;
 }
 
 .contact-section {
@@ -153,6 +154,73 @@ ul {
   justify-content: center;
   padding: 1.5rem 0 2.9rem 0;
   gap: 1.3rem;
+}
+
+
+
+.Popwrapper {
+  position: fixed;
+}
+
+.PopupMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #3C3A39;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 100;
+}
+
+.PopupMenu.active {
+  display: block;
+}
+
+.Xmenu {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.Xmenu img {
+  width: 20px;
+  height: 20px;
+}
+
+.Xmenu img:hover{
+  cursor: pointer;
+  background-color: orange;
+}
+
+.nav-items {
+  list-style: none;
+  diplay: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items li {
+  margin-top: 20px;
+  width: 100%;
+  border-bottom: 1px solid #6F6C6B;;
+
+}
+
+.nav-items li a {
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff; 
+  text-decoration: none;
+}
+
+.nav-items li a:hover {
+  color:orange;
+  font-weight: bold;
 }
 
 @media (min-width: 375px) {
@@ -425,9 +493,15 @@ ul {
   .last-name {
     display: none;
   }
+
+
 }
 
 @media (min-width: 768px) {
+  .Popwrapper{
+    display:none;
+  }
+
   .mp-head > h3 {
     margin: 3rem 0 3.2rem 0;
     width: calc(100% - 70%);
@@ -447,8 +521,10 @@ ul {
 
   .menu-img {
     display: none;
+    cursor: pointer;
   }
 
+  
   .nav-list {
     display: flex;
   }
