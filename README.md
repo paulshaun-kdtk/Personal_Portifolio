@@ -15,9 +15,9 @@
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
-  
+
+  - [🚀 Live Link](#live-link)
 - [📖 About the Project](#about-project)
-- [🚀 Live Link](#live-link)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
