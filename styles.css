@@ -93,7 +93,7 @@ ul {
 
 .menu-img {
   width: 1.1rem;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .contact-section {
@@ -156,8 +156,6 @@ ul {
   gap: 1.3rem;
 }
 
-
-
 .Popwrapper {
   position: fixed;
 }
@@ -166,8 +164,8 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  background: #3C3A39;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  background: #3c3a39;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   padding: 10px;
   width: 100%;
   height: 100%;
@@ -189,7 +187,7 @@ ul {
   height: 20px;
 }
 
-.Xmenu img:hover{
+.Xmenu img:hover {
   cursor: pointer;
   background-color: orange;
 }
@@ -206,20 +204,19 @@ ul {
 .nav-items li {
   margin-top: 20px;
   width: 100%;
-  border-bottom: 1px solid #6F6C6B;;
-
+  border-bottom: 1px solid #6f6c6b;
 }
 
 .nav-items li a {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
-  color: #fff; 
+  color: #fff;
   text-decoration: none;
 }
 
 .nav-items li a:hover {
-  color:orange;
+  color: orange;
   font-weight: bold;
 }
 
@@ -493,13 +490,11 @@ ul {
   .last-name {
     display: none;
   }
-
-
 }
 
 @media (min-width: 768px) {
-  .Popwrapper{
-    display:none;
+  .Popwrapper {
+    display: none;
   }
 
   .mp-head > h3 {
@@ -524,7 +519,6 @@ ul {
     cursor: pointer;
   }
 
-  
   .nav-list {
     display: flex;
   }
