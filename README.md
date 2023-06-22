@@ -38,8 +38,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Live app
-** <a href="https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/" id="live-link> Live Demo </a> 
+# Live app <a name="live-link></a>
+** https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/
 
 
 # 📖 Microverse-Personal-Portfolio Project <a name="about-project"></a>
