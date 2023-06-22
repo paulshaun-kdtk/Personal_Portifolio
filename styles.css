@@ -80,7 +80,7 @@ ul {
 .nav-list > li > a {
   font-family: "Inter", sans-serif;
   color: #fff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 15px;
   margin: 0 1rem;
   align-items: center;
@@ -171,7 +171,8 @@ ul {
   width: 100%;
   height: 100%;
   display: none;
-  z-index: 101;
+  z-index: 100;
+  padding: 10px;
 }
 
 .PopupMenu.active {
