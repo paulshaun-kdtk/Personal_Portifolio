@@ -15,8 +15,9 @@
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
-
+  
 - [📖 About the Project](#about-project)
+- [🚀 Live Link](#live-link)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -38,12 +39,12 @@
 <!-- PROJECT DESCRIPTION -->
 
 # Live app
-** https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/
+** <a href="https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/" id="live-link> Live Demo </a> 
 
 
 # 📖 Microverse-Personal-Portfolio Project <a name="about-project"></a>
 
-**Hello Microverse Project** is a simple Professional Portfolio, configured with linters for html and css
+**Microverse Professional Portifolio:** is a simple Professional Portfolio, configured with linters for html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
