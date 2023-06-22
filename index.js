@@ -32,7 +32,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/project-img.svg',
+    img: './assets/images/mobilePopUp.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -48,7 +48,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/project-img.svg',
+    img: './assets/images/mobilePopUp.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -64,7 +64,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/project-img.svg',
+    img: './assets/images/mobilePopUp.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -80,7 +80,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/project-img.svg',
+    img: './assets/images/mobilePopUp.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -96,7 +96,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/project-img.svg',
+    img: './assets/images/mobilePopUp.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -112,7 +112,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/project-img.svg',
+    img: './assets/images/mobilePopUp.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
