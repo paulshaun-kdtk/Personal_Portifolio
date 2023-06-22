@@ -167,12 +167,11 @@ ul {
   left: 0;
   background: #3c3a39;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  padding: 10px;
   width: 100%;
   height: 100%;
   display: none;
   z-index: 100;
-  padding: 10px;
+  padding: 20px;
 }
 
 .PopupMenu.active {
