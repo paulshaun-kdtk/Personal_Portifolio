@@ -70,7 +70,7 @@ ul {
 .header > a,
 .hero-text > h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 701;
+  font-weight: 700;
 }
 
 .header > a {
@@ -80,7 +80,7 @@ ul {
 .nav-list > li > a {
   font-family: "Inter", sans-serif;
   color: #fff;
-  font-weight: 400;
+  font-weight: 401;
   font-size: 15px;
   margin: 0 1rem;
   align-items: center;
@@ -101,7 +101,7 @@ ul {
   display: flex;
   flex-direction: column;
   margin: 4.3rem auto;
-  width: 20.4rem;
+  width: 20.5rem;
 }
 
 .contact-section > div > p {
@@ -171,7 +171,7 @@ ul {
   height: 100%;
   display: none;
   z-index: 100;
-  padding: 20px;
+  padding: 21px;
 }
 
 .PopupMenu.active {
