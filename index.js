@@ -173,3 +173,43 @@ worksBtn.forEach((element, elementIndex) => {
     });
   });
 });
+
+
+//save information to browser
+
+const firstName = document.querySelector('#first-name');
+const lastName = document.querySelector('#last-name');
+const fullName = document.querySelector('#full-name');
+const comment = document.querySelector('#comment');
+
+function updateStorage() {
+  localStorage.setItem(
+    'userDetails',
+    JSON.stringify({
+      firstname: firstName.value,
+      lastname: lastName.value,
+      fullname: fullName.value,
+      email: email.value,
+      message: comment.value,
+    }),
+  );
+}
+
+firstName.oninput = updateStorage;
+lastName.oninput = updateStorage;
+fullName.oninput = updateStorage;
+email.oninput = updateStorage;
+comment.oninput = updateStorage;
+
+function populateInput() {
+  const retrievedItem = JSON.parse(localStorage.getItem('userDetails'));
+  firstName.value = retrievedItem.firstname;
+  lastName.value = retrievedItem.lastname;
+  fullName.value = retrievedItem.fullname;
+  email.value = retrievedItem.email;
+  comment.value = retrievedItem.message;
+}
+
+if (localStorage.getItem('userDetails')) {
+  populateInput();
+}
