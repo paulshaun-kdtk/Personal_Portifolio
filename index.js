@@ -174,6 +174,30 @@ worksBtn.forEach((element, elementIndex) => {
   });
 });
 
+// validate contact form
+const error = document.querySelector('.error');
+const form = document.querySelector('.form');
+const email = document.querySelector('#email');
+
+const showError = () => {
+  if (email.value !== email.value.toLowerCase()) {
+    error.textContent = 'Email address must be in lower case';
+  }
+};
+
+email.addEventListener('input', () => {
+  if (email.value === email.value.toLowerCase()) {
+    error.textContent = '';
+  }
+});
+
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    showError();
+    event.preventDefault();
+  }
+});
+
 
 //save information to browser
 
