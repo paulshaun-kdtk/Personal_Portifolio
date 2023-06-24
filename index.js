@@ -17,8 +17,7 @@ openIcon.addEventListener('click', () => {
 closeIcon.addEventListener('click', closeMenu);
 mobileLinks.addEventListener('click', closeMenu);
 
-
-// Day 2 javascript dynamic js 
+// Day 2 javascript dynamic js
 
 const projectDetails = [
   {
@@ -198,8 +197,7 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-
-//save information to browser
+// save information to browser
 
 const firstName = document.querySelector('#first-name');
 const lastName = document.querySelector('#last-name');
