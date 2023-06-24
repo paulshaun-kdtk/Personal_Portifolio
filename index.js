@@ -36,6 +36,7 @@ const projectDetails = [
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
   },
+
   {
     name: 'Professional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or
