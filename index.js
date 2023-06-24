@@ -175,8 +175,7 @@ worksBtn.forEach((element, elementIndex) => {
 });
 
 
-// form_validation
-
+// validate contact form_
 const error = document.querySelector('.error');
 const form = document.querySelector('.form');
 const email = document.querySelector('#email');
