@@ -107,7 +107,6 @@ ul {
   align-items: center;
 }
 
-
 .cancel-icon {
   float: right;
 }
@@ -273,7 +272,7 @@ ul {
     background-color: #3c3a39;
     padding: 2.1rem 1.5rem;
   }
-  
+
   .hero-section {
     background: #1c1a19 url(./assets/icons/Group.png) 100% 115% no-repeat;
     background-size: 8.5rem;
@@ -484,10 +483,9 @@ ul {
 
 @media (min-width: 768px) {
   .icon,
-  .mobile-menu{
-    display:none;
+  .mobile-menu {
+    display: none;
   }
-
 
   .mp-head > h3 {
     margin: 3rem 0 3.2rem 0;
@@ -504,11 +502,6 @@ ul {
 
   .header {
     padding: 1rem 6rem;
-  }
-
-  .icon,
-  .mobile-menu {
-    display: none;
   }
 
   .nav-list {
@@ -689,10 +682,9 @@ ul {
 }
 
 @media (min-width: 992px) {
-
-  .icon, 
-  .mobile-menu{
-    display:none;
+  .icon,
+  .mobile-menu {
+    display: none;
   }
 
   .header {
