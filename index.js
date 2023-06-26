@@ -35,7 +35,7 @@ const projectDetails = [
     releax map lapora verita.`,
 
     img: './assets/images/mp-img.svg',
-    technologies: ['CSS','HTML', 'Bootscrap', 'Ruby'],
+    technologies: ['CSS', 'HTML', 'Bootscrap', 'Ruby'],
   },
   {
     name: 'Professional Art Printing Data',
@@ -191,7 +191,6 @@ worksBtn.forEach((element, elementIndex) => {
   });
 });
 
-
 // validate contact form_
 
 const error = document.querySelector('.error');
@@ -255,4 +254,3 @@ function populateInput() {
 if (localStorage.getItem('userDetails')) {
   populateInput();
 }
-
