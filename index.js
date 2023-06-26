@@ -17,8 +17,7 @@ openIcon.addEventListener('click', () => {
 closeIcon.addEventListener('click', closeMenu);
 mobileLinks.addEventListener('click', closeMenu);
 
-
-// Day 2 javascript dynamic js 
+// Day 2 javascript dynamic js
 
 const projectDetails = [
   {
@@ -54,6 +53,7 @@ const projectDetails = [
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
   },
+
   {
     name: 'Professional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or
@@ -192,6 +192,8 @@ worksBtn.forEach((element, elementIndex) => {
 });
 
 
+// validate contact form_
+
 const error = document.querySelector('.error');
 const form = document.querySelector('.form');
 const email = document.querySelector('#email');
@@ -214,3 +216,43 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+// save information to browser
+
+const firstName = document.querySelector('#first-name');
+const lastName = document.querySelector('#last-name');
+const fullName = document.querySelector('#full-name');
+const comment = document.querySelector('#comment');
+
+function updateStorage() {
+  localStorage.setItem(
+    'userDetails',
+    JSON.stringify({
+      firstname: firstName.value,
+      lastname: lastName.value,
+      fullname: fullName.value,
+      email: email.value,
+      message: comment.value,
+    }),
+  );
+}
+
+firstName.oninput = updateStorage;
+lastName.oninput = updateStorage;
+fullName.oninput = updateStorage;
+email.oninput = updateStorage;
+comment.oninput = updateStorage;
+
+function populateInput() {
+  const retrievedItem = JSON.parse(localStorage.getItem('userDetails'));
+  firstName.value = retrievedItem.firstname;
+  lastName.value = retrievedItem.lastname;
+  fullName.value = retrievedItem.fullname;
+  email.value = retrievedItem.email;
+  comment.value = retrievedItem.message;
+}
+
+if (localStorage.getItem('userDetails')) {
+  populateInput();
+}
+
