@@ -62,6 +62,9 @@
 
 <!-- Features -->
 
+### Link to Loom technical presentation
+<a href="https://www.loom.com/share/a863515a0867407a8c6324ce43d68ba2?sid=2fb8d742-a76f-4d44-98ac-8a01399f7b6f"> Lomm technical presentaion </a>
+
 ### Key Features <a name="key-features"></a>
 
 - **Linter for HTML**

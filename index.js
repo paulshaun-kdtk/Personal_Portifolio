@@ -21,6 +21,23 @@ mobileLinks.addEventListener('click', closeMenu);
 
 const projectDetails = [
   {
+    name: 'Multi-Post Stories',
+    description: `A daily selection of privately personalized reads; no accounts or
+    sign-ups required has been the industry's standard dummy text ever
+    since the 1500s, when an unknown printer took a standard dummy
+    text.`,
+    details: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s.
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it 1960s with the 
+    releax map lapora verita.`,
+
+    img: './assets/images/mp-img.svg',
+    technologies: ['CSS','HTML', 'Bootscrap', 'Ruby'],
+  },
+  {
     name: 'Professional Art Printing Data',
     description: `A daily selection of privately personalized reads; no accounts or
                   sign-ups required. Has been the industry's standard.`,
@@ -31,7 +48,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/mobilePopUp.svg',
+    img: './assets/images/1stImage.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -48,7 +65,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/mobilePopUp.svg',
+    img: './assets/images/2ndImage.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -64,7 +81,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/mobilePopUp.svg',
+    img: './assets/images/3rdImage.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -80,7 +97,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/mobilePopUp.svg',
+    img: './assets/images/1stImage.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -96,7 +113,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/mobilePopUp.svg',
+    img: './assets/images/2ndImage.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -112,7 +129,7 @@ const projectDetails = [
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
               when an unknown printer took a galley of type and scrambled it 1960s with the 
               releax map lapora verita.`,
-    img: './assets/images/mobilePopUp.svg',
+    img: './assets/images/3rdImage.svg',
     technologies: ['HTML', 'Bootscrap', 'Ruby'],
     live: '',
     'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
@@ -127,9 +144,9 @@ const allCodes = projectDetails.map((item) => (
       <h3 class="heading">${item.name}</h3>
       <p>${item.description}</p>
       <ul class="works-item-list">
-        <li>HTML</li>
-        <li>Bootscrap</li>
-        <li>Ruby</li>
+        <li>${item.technologies[0]}</li>
+        <li>${item.technologies[1]}</li>
+        <li>${item.technologies[2]}</li>
       </ul>
     </article>
     <button type="button" class="works-btn btn">See project</button>
@@ -174,7 +191,9 @@ worksBtn.forEach((element, elementIndex) => {
   });
 });
 
+
 // validate contact form_
+
 const error = document.querySelector('.error');
 const form = document.querySelector('.form');
 const email = document.querySelector('#email');
@@ -236,3 +255,4 @@ function populateInput() {
 if (localStorage.getItem('userDetails')) {
   populateInput();
 }
+
