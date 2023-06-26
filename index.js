@@ -14,6 +14,7 @@ openIcon.addEventListener('click', () => {
   openIcon.style.display = 'none';
   mobileMenu.style.display = 'block';
 });
+
 closeIcon.addEventListener('click', closeMenu);
 mobileLinks.addEventListener('click', closeMenu);
 
