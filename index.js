@@ -37,6 +37,8 @@ const projectDetails = [
 
     img: './assets/images/mp-img.svg',
     technologies: ['CSS','HTML', 'Bootscrap', 'Ruby'],
+    live: '',
+    'github link': 'https://github.com/paulshaun-kdtk/Microverse_Proffessional_Portifolio',
   },
   {
     name: 'Professional Art Printing Data',
