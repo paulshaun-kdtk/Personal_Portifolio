@@ -120,11 +120,6 @@ ul {
   border-bottom: 1px solid #6f6c6b;
 }
 
-.icon {
-  width: 1.1rem;
-  cursor: pointer;
-}
-
 .popup-section {
   display: none;
   position: fixed;
@@ -262,6 +257,11 @@ ul {
 }
 
 @media (min-width: 375px) {
+  .icon {
+    width: 1.1rem;
+    cursor: pointer;
+  }
+
   .mobile-menu {
     display: none;
     position: absolute;
@@ -772,6 +772,11 @@ ul {
 }
 
 @media (min-width: 1200px) {
+  .icon,
+  .mobile-menu {
+    display: none;
+  }
+
   .modal {
     width: 72.25rem;
   }
