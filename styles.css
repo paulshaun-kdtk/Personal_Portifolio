@@ -393,20 +393,6 @@ ul {
     background: rgba(255, 255, 255, 0.24);
   }
 
-  .works-section {
-    display: grid;
-    width: fit-content;
-    max-width: 72.2rem;
-    margin: 1.5rem auto 7.5rem;
-    gap: 1.5rem;
-  }
-
-  .heading {
-    font-size: 32px;
-    margin-bottom: 0.75rem;
-    font-family: "Crete round", serif;
-  }
-
   .about-section {
     background: #1c1a19 url(./assets//images/abt-bg-img.svg) 100% 25% no-repeat;
     padding-bottom: 5.4rem;
@@ -422,6 +408,35 @@ ul {
   .about-list h3 {
     margin-bottom: 2rem;
   }
+
+  .modal {
+    margin: 3rem auto;
+    top: 20%;
+    bottom: -30%;
+  }
+
+  .modal > ul > li {
+    margin-bottom: 5%;
+  }
+
+  .modal > img {
+    cursor: pointer;
+  }
+
+  .works-section {
+    display: grid;
+    width: fit-content;
+    max-width: 72.2rem;
+    margin: 1.5rem auto 7.5rem;
+    gap: 1.5rem;
+  }
+
+  .heading {
+    font-size: 32px;
+    margin-bottom: 0.75rem;
+    font-family: "Crete round", serif;
+  }
+
 
   .language > h3 {
     background: url(./assets/icons/rect.svg) 2rem 50% no-repeat;
@@ -723,6 +738,7 @@ ul {
 
   .modal {
     width: 60rem;
+    margin-top: 5%;
   }
 
   .contact-section > div {
@@ -778,7 +794,16 @@ ul {
   }
 
   .modal {
+    margin-top: 7%;
     width: 72.25rem;
+    padding: -20px;
+  }
+
+  .modal > ul > li {
+    border: 1px solid #8993a4;
+    padding: 0.3rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0.5rem 1.5rem 0;
   }
 
   .mp-head > h3 {
