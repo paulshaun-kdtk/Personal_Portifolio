@@ -94,6 +94,10 @@ Clone this repository to your desired folder:
   git clone https://github.com/donice/Portfolio-Microverse.git
 ```
 
+### Usage <a name="usage"></a>
+To run the project:
+Clone it to your local; and open the index.html file in your browser🙃.
+
 ### Run tests
 
 To run tests, run the following command:
