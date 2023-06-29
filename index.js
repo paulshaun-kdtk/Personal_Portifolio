@@ -198,7 +198,7 @@ const email = document.querySelector('#email');
 
 const showError = () => {
   if (email.value !== email.value.toLowerCase()) {
-    error.textContent = ''; // Email address must be in lower case
+    error.textContent = 'Email address must be in lower case';
   }
 };
 
