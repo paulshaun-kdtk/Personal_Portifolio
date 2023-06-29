@@ -215,7 +215,6 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-
 // save information to browser
 
 const firstName = document.querySelector('#first-name');

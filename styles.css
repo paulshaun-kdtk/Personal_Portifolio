@@ -248,7 +248,7 @@ ul {
   margin: 0.9rem 0 0.9rem 0;
   padding: 1rem;
   width: 100%;
-  border: none;
+    border: none;
   background-color: #fbf8f7;
 }
 
@@ -258,7 +258,7 @@ ul {
 
 .error {
   color: red;
-  font-family: 'Inter', sans-serif;
+font-family: 'Inter', sans-serif;
   padding-bottom: 0.5rem;
 }
 
