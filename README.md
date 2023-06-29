@@ -62,6 +62,9 @@
 
 <!-- Features -->
 
+### Link to Loom technical presentation
+<a href="https://www.loom.com/share/a863515a0867407a8c6324ce43d68ba2?sid=2fb8d742-a76f-4d44-98ac-8a01399f7b6f"> Lomm technical presentaion </a>
+
 ### Key Features <a name="key-features"></a>
 
 - **Linter for HTML**
@@ -90,6 +93,10 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/donice/Portfolio-Microverse.git
 ```
+
+### Usage <a name="usage"></a>
+To run the project:
+Clone it to your local; and open the index.html file in your browser🙃.
 
 ### Run tests
 
