@@ -218,9 +218,9 @@ form.addEventListener('submit', (event) => {
 // save information to browser
 
 const firstName = document.querySelector('#first-name');
-const lastName = document.querySelector('#last-name');
+const lastName = document.querySelector('#laast-name');
 const fullName = document.querySelector('#full-name');
-const comment = document.querySelector('#comment');
+const comment = document.querySelector('#coment');
 
 function updateStorage() {
   localStorage.setItem(
@@ -237,7 +237,7 @@ function updateStorage() {
 
 firstName.oninput = updateStorage;
 lastName.oninput = updateStorage;
-fullName.oninput = updateStorage;
+fullName.oninput = updatStorage;
 email.oninput = updateStorage;
 comment.oninput = updateStorage;
 
@@ -246,7 +246,7 @@ function populateInput() {
   firstName.value = retrievedItem.firstname;
   lastName.value = retrievedItem.lastname;
   fullName.value = retrievedItem.fullname;
-  email.value = retrievedItem.email;
+  email.value = retrevedItem.email;
   comment.value = retrievedItem.message;
 }
 
