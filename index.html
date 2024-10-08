@@ -76,19 +76,19 @@
         </div>
         <ul class="socials">
           <li>
-            <a href="https://github.com/paulshaun-kdtk"><img src="./assets/icons/github.png" alt="github" /></a>
+            <a href="https://github.com/paulshaun-kdtk" target="__blank"><img src="./assets/icons/github.png" alt="github" /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/shaun-sungai-b54339263"><img src="./assets/icons/linkedin.png" alt="linkedin" /></a>
+            <a href="https://www.linkedin.com/in/shaun-sungai-b54339263" target="__blank"><img src="./assets/icons/linkedin.png" alt="linkedin" /></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/shaun-sungai-b54339263"><img src="./assets/icons/angellist.png" alt="angellist" /></a>
+            <a href="https://www.linkedin.com/in/shaun-sungai-b54339263" target="__blank"><img src="./assets/icons/angellist.png" alt="angellist" /></a>
           </li>
           <li>
-            <a href="https://twitter.com/ShaunPa30032006"><img src="./assets/icons/twitter.png" alt="twitter" /></a>
+            <a href="https://twitter.com/ShaunPa30032006" target="__blank"><img src="./assets/icons/twitter.png" alt="twitter" /></a>
           </li>
           <li>
-            <a href="https://www.instagram.com/_.shaun.s_/"><img src="./assets/icons/medium.png" alt="medium" /></a>
+            <a href="https://www.instagram.com/shaunv1.0.0/" target="__blank"><img src="./assets/icons/medium.png" alt="medium" /></a>
           </li>
         </ul>
       </article>
@@ -124,7 +124,10 @@
         <div class="language">
           <h3 class="heading">Language</h3>
           <ul>
+            <li>Python</li>
             <li>Javascript</li>
+            <li>Typescript</li>
+            <li>SQL</li>
             <li>Ruby</li>
             <li>HTML</li>
             <li>CSS</li>
@@ -133,7 +136,12 @@
         <div class="framework">
           <h3 class="heading">Frameworks</h3>
           <ul>
+            <li>Django</li>
             <li>React.js</li>
+            <li>Django Rest Framework</li>
+            <li>Next.js</li>
+            <li>React Native</li>
+            <li>Expo</li>
             <li>Ruby on Rails</li>
             <li>RSpec</li>
             <li>Capybara</li>
@@ -142,11 +150,12 @@
         <div class="skills">
           <h3 class="heading">Skills</h3>
           <ul>
+            <li>Web Development</li>
+            <li>Mobile Development</li>
             <li>Data Management</li>
+            <li>API Design</li>
             <li>Version Control</li>
             <li>CLI</li>
-            <li>API Design</li>
-            <li>Web Development</li>
           </ul>
         </div>
       </article>
@@ -158,7 +167,7 @@
           like to chat please get in touch.
         </p>
       </div>
-      <form action="https://formspree.io/f/mrgvwoew" method="post" class="form">
+      <form action="" method="post" class="form" id="contactForm">
         <fieldset>
           <input class="first-name" type="text" name="first-name" id="first-name" placeholder="First name"
             maxlength="30" required/>
@@ -198,6 +207,23 @@
   </footer>
 
   <script src="./index.js"></script>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+      event.preventDefault();
+  
+      const firstName = document.getElementById('first-name').value;
+      const lastName = document.getElementById('last-name').value;
+      const fullName = document.getElementById('full-name').value || `${firstName} ${lastName}`;
+      const email = document.getElementById('email').value;
+      const comment = document.getElementById('comment').value;
+  
+      const mailtoLink = `mailto:"paulshaun50@gmail.com"?subject=Contact from ${fullName}&body=${encodeURIComponent(comment)}`;
+  
+      window.location.href = mailtoLink;
+    });
+  </script>
+
 </body>
 
 </html>
