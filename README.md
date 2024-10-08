@@ -16,6 +16,7 @@
 
 # 📗 Table of Contents
 
+  - [🚀 Live Link](#live-link)
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -37,13 +38,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Live app
+# Live app<a name="live-link"></a>
 ** https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/
 
 
 # 📖 Microverse-Personal-Portfolio Project <a name="about-project"></a>
 
-**Hello Microverse Project** is a simple Professional Portfolio, configured with linters for html and css
+**Microverse Professional Portifolio:** is a simple Professional Portfolio, configured with linters for html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,6 +61,9 @@
 
 
 <!-- Features -->
+
+### Link to Loom technical presentation
+<a href="https://www.loom.com/share/a863515a0867407a8c6324ce43d68ba2?sid=2fb8d742-a76f-4d44-98ac-8a01399f7b6f"> Lomm technical presentaion </a>
 
 ### Key Features <a name="key-features"></a>
 
@@ -89,6 +93,10 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/donice/Portfolio-Microverse.git
 ```
+
+### Usage <a name="usage"></a>
+To run the project:
+Clone it to your local; and open the index.html file in your browser🙃.
 
 ### Run tests
 
