@@ -7,7 +7,7 @@
   
   <br/>
 
-# Portfolio-Microverse
+# Portfolio-
 
 
 </div>
@@ -42,9 +42,9 @@
 ** https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/
 
 
-# 📖 Microverse-Personal-Portfolio Project <a name="about-project"></a>
+# 📖-Personal-Portfolio Project <a name="about-project"></a>
 
-**Microverse Professional Portifolio:** is a simple Professional Portfolio, configured with linters for html and css
+**Professional Portifolio:** is a simple Professional Portfolio, configured with linters for html and css
 
 ## 🛠 Built With <a name="built-with"></a>
 
