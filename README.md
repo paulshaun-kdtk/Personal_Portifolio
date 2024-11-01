@@ -39,7 +39,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # Live app<a name="live-link"></a>
-** https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/
+**<a href="https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio" >Click Here </a>
 
 
 # 📖-Personal-Portfolio Project <a name="about-project"></a>
